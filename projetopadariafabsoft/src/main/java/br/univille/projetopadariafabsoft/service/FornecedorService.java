@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 import br.univille.projetopadariafabsoft.entities.Fornecedor;
@@ -30,6 +31,7 @@ public class FornecedorService {
     public Fornecedor save(Fornecedor fornecedor) {
         return repository.save(fornecedor);
     }
+
 
     public void deleteById(Long id) {
         repository.deleteById(id);

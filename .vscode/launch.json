@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProjetopadariafabsoftApplication<projetopadariafabsoft>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.univille.projetopadariafabsoft.ProjetopadariafabsoftApplication",
+            "projectName": "projetopadariafabsoft",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

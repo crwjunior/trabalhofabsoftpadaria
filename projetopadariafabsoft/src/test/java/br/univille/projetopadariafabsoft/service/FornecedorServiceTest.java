@@ -30,6 +30,7 @@ class FornecedorServiceTest {
     @Test
     void shouldSaveFornecedor() {
         Fornecedor fornecedor = new Fornecedor();
+        fornecedor.setId(1L);
         fornecedor.setNome("Fornecedor 1");
         fornecedor.setContato("contato@fornecedor1.com");
 
