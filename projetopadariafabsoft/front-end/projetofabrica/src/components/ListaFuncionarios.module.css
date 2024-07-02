@@ -1,0 +1,53 @@
+.listaFuncionarios {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .listaFuncionarios ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listaFuncionarios li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .listaFuncionarios li div {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:nth-child(2) {
+    background-color: #dc3545;
+  }
+  
+  button:nth-child(2):hover {
+    background-color: #c82333;
+  }
+  
+  .light-mode input {
+    color: #000; /* Texto preto no modo claro */
+    background-color: #fff; /* Fundo branco no modo claro */
+  }
+  
+  .dark-mode input {
+    color: #fff; /* Texto branco no modo escuro */
+    background-color: #333; /* Fundo cinza escuro no modo escuro */
+  }
+  

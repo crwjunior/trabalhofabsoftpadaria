@@ -1,0 +1,58 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldContainer {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.errorPopup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 0.875em;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.light-mode input {
+  color: #000; /* Texto preto no modo claro */
+  background-color: #fff; /* Fundo branco no modo claro */
+}
+
+.dark-mode input {
+  color: #fff; /* Texto branco no modo escuro */
+  background-color: #333; /* Fundo cinza escuro no modo escuro */
+}
